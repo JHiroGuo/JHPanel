@@ -245,4 +245,4 @@ NSSavePanel *panel  =  [CustomePanel savePanelWithTitleMessage:@"Save File"
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228162643225.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlcm9HdW9fSlA=,size_16,color_FFFFFF,t_70)
 
-PS : 模态状态下都是以弹窗的形式弹出，但是如果有多个扩展屏幕。需要注意弹出的窗体可能和应用程序不在一个窗口上。非模态下弹出窗体都是在应用上以刘海的形式弹出，大需要注意的是，所有额有关`Code`执行循序的问题。
+PS : 模态状态下都是以弹窗的形式弹出，但是如果有多个扩展屏幕。需要注意弹出的窗体可能和应用程序不在一个窗口上。非模态下弹出窗体都是在应用上以刘海的形式弹出，大需要注意的是，有关`Code`执行循序的问题。
