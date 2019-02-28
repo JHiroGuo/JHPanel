@@ -12,6 +12,8 @@
 		3B503B0522269A6100945724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B503B0422269A6100945724 /* Assets.xcassets */; };
 		3B503B0822269A6100945724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B503B0622269A6100945724 /* Main.storyboard */; };
 		3B503B0B22269A6100945724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B503B0A22269A6100945724 /* main.m */; };
+		3B503B1522269AAA00945724 /* CustomePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B503B1322269AA900945724 /* CustomePanel.m */; };
+		3B503B17222788DF00945724 /* QRCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B503B16222788DF00945724 /* QRCode.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,9 @@
 		3B503B0922269A6100945724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B503B0A22269A6100945724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B503B0C22269A6100945724 /* JHPanel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JHPanel.entitlements; sourceTree = "<group>"; };
+		3B503B1322269AA900945724 /* CustomePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomePanel.m; sourceTree = "<group>"; };
+		3B503B1422269AA900945724 /* CustomePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomePanel.h; sourceTree = "<group>"; };
+		3B503B16222788DF00945724 /* QRCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRCode.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +62,28 @@
 		3B503AFD22269A6100945724 /* JHPanel */ = {
 			isa = PBXGroup;
 			children = (
+				3B503B1222269AA900945724 /* Class */,
 				3B503AFE22269A6100945724 /* AppDelegate.h */,
 				3B503AFF22269A6100945724 /* AppDelegate.m */,
 				3B503B0122269A6100945724 /* ViewController.h */,
 				3B503B0222269A6100945724 /* ViewController.m */,
 				3B503B0422269A6100945724 /* Assets.xcassets */,
+				3B503B16222788DF00945724 /* QRCode.png */,
 				3B503B0622269A6100945724 /* Main.storyboard */,
 				3B503B0922269A6100945724 /* Info.plist */,
 				3B503B0A22269A6100945724 /* main.m */,
 				3B503B0C22269A6100945724 /* JHPanel.entitlements */,
 			);
 			path = JHPanel;
+			sourceTree = "<group>";
+		};
+		3B503B1222269AA900945724 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3B503B1322269AA900945724 /* CustomePanel.m */,
+				3B503B1422269AA900945724 /* CustomePanel.h */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B503B0522269A6100945724 /* Assets.xcassets in Resources */,
+				3B503B17222788DF00945724 /* QRCode.png in Resources */,
 				3B503B0822269A6100945724 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B503B0322269A6100945724 /* ViewController.m in Sources */,
+				3B503B1522269AAA00945724 /* CustomePanel.m in Sources */,
 				3B503B0B22269A6100945724 /* main.m in Sources */,
 				3B503B0022269A6100945724 /* AppDelegate.m in Sources */,
 			);
